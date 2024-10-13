@@ -1,1 +1,1 @@
-(()=>{"use strict";window.buffer=window.Buffer;const e=new xrpIO("wss://s.altnet.rippletest.net:51233");e.connect().then((async t=>{const n=await e.treeRead(["9D07FAEF2AC419602B8557A2B23DB2B435331F60EA0C22E6286715413193A71A"]);document.write(n)}))})();
+(()=>{"use strict"; window.buffer=window.Buffer;const e=new xrpIO("wss://s.altnet.rippletest.net:51233");e.connect().then((async t=>{const n=await e.treeRead(["9D07FAEF2AC419602B8557A2B23DB2B435331F60EA0C22E6286715413193A71A"]);document.write(n)}))})();
